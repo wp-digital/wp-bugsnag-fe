@@ -1,0 +1,52 @@
+{
+	"name": "innocode-digital/wp-bugnag-fe",
+	"version": "1.0.0",
+	"type": "wordpress-muplugin",
+	"description": "Automatically detects issues from browser on site and notifies by email, chat or ticket system via Bugsnag.",
+	"keywords": [
+		"wordpress",
+		"wp",
+		"plugin",
+		"mu-plugin",
+		"bugsnag",
+		"frontend",
+		"fe",
+		"error",
+		"monitoring"
+	],
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Innocode",
+			"email": "post@innocode.no",
+			"homepage": "https://innocode.com/"
+		},
+		{
+			"name": "Viktor Kuliebiakin",
+			"email": "kuliebiakin@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"innocode-digital/php-cs": "^1.0",
+		"squizlabs/php_codesniffer": "^3.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Innocode\\BugsnagFE\\": "src/"
+		}
+	},
+	"scripts": {
+		"phpcs": "vendor/bin/phpcs --standard=phpcs.xml",
+		"phpcbf": "vendor/bin/phpcbf --standard=phpcs.xml",
+		"check-cs": "@phpcs",
+		"fix-cs": "@phpcbf"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
