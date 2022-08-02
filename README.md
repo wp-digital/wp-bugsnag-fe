@@ -40,7 +40,7 @@ define( 'BUGSNAG_FE_VERSION', 'v6' );
 
 ### Usage
 
-By default, library will be loaded with higher priority that `wp_enqueue_scripts` hook with attribute `defer` but
+By default, library will be loaded with higher priority than `wp_enqueue_scripts` hook with attribute `defer` but
 it's possible to control through `innocode_bugsnag_fe_deferred` hook:
 
 ````
