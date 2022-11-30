@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bugsnag Frontend Error Monitoring
  * Description: Automatically detects issues from browser on site and notifies by email, chat or ticket system via Bugsnag.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Innocode
  * Author URI: https://innocode.com
  * Tested up to: 6.0.1

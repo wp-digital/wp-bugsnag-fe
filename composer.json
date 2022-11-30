@@ -1,6 +1,6 @@
 {
-	"name": "innocode-digital/wp-bugnag-fe",
-	"version": "1.0.0",
+	"name": "innocode-digital/wp-bugsnag-fe",
+	"version": "1.1.0",
 	"type": "wordpress-muplugin",
 	"description": "Automatically detects issues from browser on site and notifies by email, chat or ticket system via Bugsnag.",
 	"keywords": [
